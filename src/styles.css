@@ -1,0 +1,198 @@
+/* FOLHA DE ESTILOS DO PROJETO DE JOGO DO DETONA RALPH
+POR RAFAEL_SOL_MAKER (RSM)
+EDITADO: 08/11/23 */
+
+    /* IMPORTANDO FONTES GLOBAIS */
+    @import url('https://fonts.googleapis.com/css2?family=Silkscreen');
+
+/* =============== SEÇÕES =============== */
+
+    header {
+        /* border: 3px solid #ff0000; */
+        display: flex;
+        position: fixed;
+        top: 0%;
+        height: 10%;
+        width: 100%;
+        font-size: 40px;
+        text-align: center;
+        background: linear-gradient(0deg, rgb(75, 38, 14) 0%, rgb(27, 15, 0) 100%);
+        text-shadow: 3px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    main {
+        /* display: block; */
+        position: fixed;
+        top: 10%;
+        height: 85%;
+        width: 100%;
+        background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.0) 2.5%),
+                    url(/assets/images/wall.png);
+    }
+
+    footer {
+        display: flex;
+        position: fixed;
+        top: 95%;
+        height: 5%;
+        width: 100%;
+
+        background: linear-gradient(180deg, rgb(75, 38, 14) 0%, rgb(27, 15, 0) 100%);
+        color: #ffffff;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.75);
+    }
+
+    p {
+        font-family: "Silkscreen", sans-serif;
+        /* font-size: 40px; */
+    }
+
+/* =============== CLASSES =============== */
+
+    /* CABEÇALHO */
+    .time {
+        position: absolute;
+        top: 6px;
+        height: 100%;
+        width: 30%;
+    }
+    .score {
+        position: absolute;
+        top: 6px;
+        height: 100%;
+        width: 40%;
+        left: 30%;
+    }
+    .player {
+        position: absolute;
+        top: 6px;
+        height: 100%;
+        width: 30%;
+        left: 70%;
+    }
+
+    .item-name {
+        color: #f9fc57;
+    }
+
+    .item-value {
+        color: white;
+    }
+
+    /* ÁREA PRINCIPAL */
+
+    .reset{
+        position:absolute;
+        margin-top: 24px;
+        margin-left: 24px;
+        width: 164px;
+        height: 96px;
+        border: 4px solid rgb(104, 32, 4);
+        background-color: rgb(204, 123, 2);
+        cursor: pointer;
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.65);
+        
+        /* Texto */
+        color: #ffffff;
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .reset:hover {
+        border: 4px solid rgb(163, 81, 48);
+        background-color: rgb(204, 146, 60);
+        color: rgb(255, 223, 134);
+        box-shadow: 6px 6px rgba(0, 0, 0, 0.65);
+    }
+
+    .panel{
+        display: flex;
+        width: 75vh;
+        height: 75vh;
+        align-self: center;
+        margin: 2.5% auto;        
+    }
+
+    .square, .enemy {      
+        cursor: pointer;
+        margin: 5px;
+        width: 25vh;
+        height: 25vh;
+        border-radius: 16px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+    }
+
+    .square {
+        background-color: #ffd900;
+        opacity: 0.75;
+    }
+
+    .square:hover {
+        background-color: #fdffa5;
+        /* border-color: green; */
+        border-width: 4px;
+        opacity: 0.85;
+    }
+
+    /* .scoreHit {
+        top: 24px;
+        left: 24px;
+        position: relative;
+        padding-top: 25%;
+        font-size: 60px;
+        color: rgb(0, 255, 0);
+        -webkit-text-stroke: 4px green;
+    }
+
+    .scoreFail {
+        top: 24px;
+        left: 24px;
+        position: relative;
+        padding-top: 25%;
+        font-size: 60px;
+        color: red;
+        -webkit-text-stroke: 4px rgb(107, 0, 0);
+    } */
+
+    .enemy {
+        background-image: url(/assets/images/ralph.png);
+        background-size: cover;
+        background-color: rgba(255, 136, 0, 0.85) 
+        /* background-size: cover;
+        background: radial-gradient(at center, #FFF22C, #FF5101);        
+        background-image: url(/assets/images/ralph.png);    
+        background-size: cover;
+        background-blend-mode: multiply; */
+    }
+
+    .enemy:hover {
+        background-color: #ffe600;
+    }
+
+    /* RODAPÉ */
+    .copyright {
+        font-size: 14px;
+        width: 60%;
+        padding-left: 18px;
+        padding-top: 8px;
+    }
+
+    .credits {
+        font-size: 26px;
+        width: 40%;
+        text-align: right;
+        padding-right: 18px;
+        padding-top: 8px;
+    }
+    .credits a {
+        color: #fcff4f;
+    }
+
+
+/* =============== ELEMENTOS (IDs)  =============== */
+
+    #reset-button {
+        padding-top: 6px;
+    }
+

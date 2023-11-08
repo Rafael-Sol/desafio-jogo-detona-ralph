@@ -1,0 +1,60 @@
+<!-- INDEX.HTML DO PROJETO DE JOGO DO DETONA RALPH
+POR RAFAEL_SOL_MAKER (RSM)
+EDITADO: 07/11/23 -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Detona Ralph</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.jpg"> <!-- ícone do game -->
+    <link rel="stylesheet" href="src/reset.css"> <!-- Limpa diferenças entre navegadores -->
+    <link rel="stylesheet" href="src/styles.css"> <!-- Folha de estilos do game -->
+</head>
+<body>
+    <header>        
+        <div class="menu">
+            <div class="time">
+                <p class="item-name">Time Left</p>
+                <p class="item-value" id="time-left">00:00</p>
+            </div>
+            <div class="score">
+                <p class="item-name">Score</p>
+                <p class="item-value" id="game-score">000000</p>
+            </div>
+            <div class="player">
+                <p class="item-name">Player</p>
+                <p class="item-value" id="player-name">Jogador</p>
+            </div>
+        </div>
+    </header>
+    <main>        
+        <!-- <div id="debug"></div> -->
+        <div class="reset"><p id="reset-button">RESET GAME</p></div>
+        <div class="panel">
+            <div class="enemy" style="display: none"></div>
+            <div class="panel-row">
+                <div class="square" id="s0"></div>
+                <div class="square" id="s1"></div>
+                <div class="square" id="s2"></div>
+            </div>
+            <div class="panel-row">            
+                <div class="square" id="s3"></div>
+                <div class="square" id="s4"></div>
+                <div class="square" id="s5"></div>
+            </div>
+            <div class="panel-row">
+                <div class="square" id="s6"></div>
+                <div class="square" id="s7"></div>
+                <div class="square" id="s8"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">Esta página da web contém imagens de personagens do filme Detona Ralph(2012), dirigido por Rich Moore e produzido pela Walt Disney Animation Studios. Todos os direitos pertencem aos seus respectivos proprietários.</p>
+        <p class="credits">Código: <a href="https://github.com/Rafael-Sol/">Rafael Sol Maker(RSM)</a></p>
+    </footer>    
+    <script defer src="src/main.js"></script>
+</body>
+</html>
