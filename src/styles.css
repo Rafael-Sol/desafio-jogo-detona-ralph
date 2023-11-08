@@ -27,7 +27,7 @@ EDITADO: 08/11/23 */
         height: 85%;
         width: 100%;
         background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.0) 2.5%),
-                    url(/assets/images/wall.png);
+                    url(../assets/images/wall.png);
     }
 
     footer {
@@ -156,7 +156,7 @@ EDITADO: 08/11/23 */
     } */
 
     .enemy {
-        background-image: url(/assets/images/ralph.png);
+        background-image: url(../assets/images/ralph.png);
         background-size: cover;
         background-color: rgba(255, 136, 0, 0.85) 
         /* background-size: cover;
