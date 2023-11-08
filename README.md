@@ -10,3 +10,7 @@ A seguinte versão foi feita do zero e *possui várias diferenças* em relação
 - ‼️Perde pontos ao errar; 🧨
 - 👨‍💻 Ao terminar, o jogo é reiniciado automaticamente sem a necessidade de recarregar a página; 🤙
 - 🎢 Dificuldade progressiva, com mais pontos à medida que fica mais rápido, mas também perde mais pontos ao errar. 💣
+
+## Link do Jogo
+
+O jogo pode ser testado em: https://rafael-sol.github.io/desafio-jogo-detona-ralph/.
